@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 export const TodoListFetch = () => {
     const [task, setTask] = useState("");
     const [list, setList] = useState([]);
-    const [edit, setEdit] = useState(false);
+    //const [edit, setEdit] = useState(false);
     const host = "https://playground.4geeks.com/todo";
     const user = "broccoli";
 
