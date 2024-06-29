@@ -10,3 +10,10 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.hidden-icon > i {
+    visibility: hidden;
+}
+
+.hidden-icon:hover > i {
+    visibility: visible;
+}
